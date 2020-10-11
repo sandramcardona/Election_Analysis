@@ -28,7 +28,7 @@ The analysis of the election show that:
     - Candidate Diana DeGette, who received 272,892 of the 369,711 votes. The candidate won 73.8% of the popular votes.
 Below are the results after the code ran using the scrip written:
 
-![alt text](
+![alt text](https://github.com/sandramcardona/Election_Analysis/blob/main/Resources/Results_Election_Analysis.png)
     
 ## Challenge Overview
 The election commission has requested some additional data to complete the audit:
@@ -52,7 +52,7 @@ The analysis of the election based on county shows that:
 
 Below are the results after the code ran using the scrip written:
 
-![alt text](
+![alt text](https://github.com/sandramcardona/Election_Analysis/blob/main/Resources/Results_Pypoll_Challenge_Election_analysis.png)
 
 Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
