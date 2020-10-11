@@ -25,7 +25,10 @@ The analysis of the election show that:
     - Charles Casper Stockham: 23.0% (85,213)
     - Raymon Anthony Doane: 3.1% (11,606)
 - The winner of the election was:
-    - Candidate Diana DeGette, who received 272,892 of the 369,711 votes. The candidate won        73.8% of the popular votes
+    - Candidate Diana DeGette, who received 272,892 of the 369,711 votes. The candidate won 73.8% of the popular votes.
+Below are the results after the code ran using the scrip written:
+
+![alt text](
     
 ## Challenge Overview
 The election commission has requested some additional data to complete the audit:
@@ -45,7 +48,11 @@ The analysis of the election based on county shows that:
     - Denver: 82.8% (306,055)
     - Jefferson: 10.5% (38,855)
     - Arapahoe: 6.7% (24,801)
-- The county with the largest number of votes was Denver
+- The county with the largest number of votes was Denver.
+
+Below are the results after the code ran using the scrip written:
+
+![alt text](
 
 Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
