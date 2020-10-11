@@ -37,6 +37,10 @@ The election commission has requested some additional data to complete the audit
 2. The percentage of votes from each county out of the total count
 3. The county with the highest turnout
 
+## Resources
+- Data Source: election_results.csv
+- Software: Python 3.9.0, Visual Studio Code, 1.50
+
 ## Challenge Summary
 The analysis of the election based on county shows that:
 - There were 369,711 votes cast in the election.
@@ -50,16 +54,14 @@ The analysis of the election based on county shows that:
     - Arapahoe: 6.7% (24,801)
 - The county with the largest number of votes was Denver.
 
-Below are the results after the code ran using the scrip written:
+Below are the results after the code ran using the scrip written to include counties:
 
 ![alt text](https://github.com/sandramcardona/Election_Analysis/blob/main/Resources/Results_Pypoll_Challenge_Election_analysis.png)
 
-Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+Based on the results, the script written to analyze the results for this election can be modified in several ways to use for any future election. The modificaton will be to  define a function that can be called with single commands and can be designed to accept new files and process the written script with the new data and provide the results needed for the election analysis. One of the modifications will be to create a function to find the votes by county and the other modification will be to create a second function fo find the votes for the candidates and the winning candidate. 
 
-Finally, you’ll provide a written analysis of the election audit for the election commission, including the new results and a clearly written overview of your methods. As with all written analyses, this will help your audience understand what you did and what they might be able to do with the data you presented.
+# Overview of Methods Used
 
-This new assignment consists of two technical analysis deliverables and a written report to deliver your results. You will submit the following:
+The csv file provided with the data was opened through Python VS Code. Then the dependencies for OS and CSV were imported and the file was accessed by creating a file_to-load variable and file_to_save variable that would open and save the file. Using a "with Open" statement the election results were open by identifying the file_reader as a csv reader for the election data. Then the 2 headers were skipped so they wouldn't be counted in the total lines being reviewed. To count up all the votes,   a variable was initialized, which is called an accumulator, this will increment by 1 as each row is read in the for loop. The variable called total_votes was set to start in  zero. Then using a for loop. Then we declared a new list under the variable candidate_name to capture the candidate options in the data on the third column, then this variable was used within the "for" loop already in place to collect the names of the candidates in the third column (row[2]) and add the names to the list only if the names were new in the list. If the name already exist on the list, then the name won't be added again. Then a candidate_votes variable was created to hold an empty dictionary. Then this variable was used to add the candidate votes to this dictionary to every corresponding candidate as it encounters them in the data. A Total_votes variable was created to initialize the toatl vote counter at 0 for all the candidates then we incremented the votes by 1 everytime a candidate name appears in a row. 
 
-Deliverable 1: The Election Results Printed to the Command Line
-Deliverable 2: The Election Results Saved to a Text File
-Deliverable 3: A written Analysis of the Election Audit (README.md)
+
